@@ -11,6 +11,7 @@ export const styles = StyleSheet.create({
     color: '#333',
     fontSize: 16,
     backgroundColor: '#26c6da',
+    padding: 16,
   },
   CheckBox: {
     borderColor: '#26c6da',
@@ -39,6 +40,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     flexWrap: 'nowrap',
     height: 48,
+    paddingHorizontal: 16,
     width: '100%',
     backgroundColor: 'white',
     alignItems: 'center',
@@ -47,8 +49,8 @@ export const styles = StyleSheet.create({
   ListItemInputTask: {
     backgroundColor: 'transparent',
     width: '95%',
-    padding: 10,
-    fontFamily: 'NunitoSans',
+    paddingLeft: 16,
+    paddingBottom: 4,
     fontSize: 14,
     lineHeight: 20,
     fontStyle: 'normal',
@@ -56,8 +58,8 @@ export const styles = StyleSheet.create({
   ListItemInputTaskArchived: {
     color: '#aaa',
     width: '95%',
-    padding: 10,
-    fontFamily: 'NunitoSans',
+    paddingLeft: 16,
+    paddingBottom: 4,
     fontSize: 14,
     lineHeight: 20,
     fontStyle: 'normal',
@@ -103,7 +105,6 @@ export const styles = StyleSheet.create({
   TitleMessage: {
     fontSize: 16,
     lineHeight: 24,
-    fontFamily: 'NunitoSans',
     fontWeight: '800',
     color: '#555',
   },
@@ -111,14 +112,12 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     lineHeight: 20,
     color: '#666',
-    fontFamily: 'NunitoSans',
   },
   titlepage: {
     fontSize: 20,
     lineHeight: 24,
   },
   TitleWrapper: {
-    fontFamily: 'NunitoSans',
     fontWeight: '800',
     color: '#1c3f53',
     maxWidth: '100%',
