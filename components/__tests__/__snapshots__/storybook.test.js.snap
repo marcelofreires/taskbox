@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Task archived 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#26c6da",
+      "color": "#333",
+      "flex": 1,
+      "fontSize": 16,
+      "padding": 16,
+    }
+  }
+>
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "height": 48,
+        "justifyContent": "space-around",
+        "paddingHorizontal": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#2cc5d2",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "anticon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <TextInput
+      allowFontScaling={true}
+      editable={false}
+      placeholder="Input Title"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "color": "#aaa",
+          "fontSize": 14,
+          "fontStyle": "normal",
+          "lineHeight": 20,
+          "paddingBottom": 4,
+          "paddingLeft": 16,
+          "width": "95%",
+        }
+      }
+      underlineColorAndroid="transparent"
+      value="Test Task"
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#eee",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "anticon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`Storyshots Task default 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#26c6da",
+      "color": "#333",
+      "flex": 1,
+      "fontSize": 16,
+      "padding": 16,
+    }
+  }
+>
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "height": 48,
+        "justifyContent": "space-around",
+        "paddingHorizontal": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "#26c6da",
+            "borderRadius": 1,
+            "borderStyle": "solid",
+            "borderWidth": 2,
+            "height": 18,
+            "width": 18,
+          }
+        }
+      />
+    </View>
+    <TextInput
+      allowFontScaling={true}
+      editable={false}
+      placeholder="Input Title"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "fontSize": 14,
+          "fontStyle": "normal",
+          "lineHeight": 20,
+          "paddingBottom": 4,
+          "paddingLeft": 16,
+          "width": "95%",
+        }
+      }
+      underlineColorAndroid="transparent"
+      value="Test Task"
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text />
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`Storyshots Task pinned 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#26c6da",
+      "color": "#333",
+      "flex": 1,
+      "fontSize": 16,
+      "padding": 16,
+    }
+  }
+>
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "height": 48,
+        "justifyContent": "space-around",
+        "paddingHorizontal": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "#26c6da",
+            "borderRadius": 1,
+            "borderStyle": "solid",
+            "borderWidth": 2,
+            "height": 18,
+            "width": 18,
+          }
+        }
+      />
+    </View>
+    <TextInput
+      allowFontScaling={true}
+      editable={false}
+      placeholder="Input Title"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "fontSize": 14,
+          "fontStyle": "normal",
+          "lineHeight": 20,
+          "paddingBottom": 4,
+          "paddingLeft": 16,
+          "width": "95%",
+        }
+      }
+      underlineColorAndroid="transparent"
+      value="Test Task"
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text />
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;
