@@ -35,6 +35,8 @@ export const styles = StyleSheet.create({
   GlowText: {
     backgroundColor: '#eee',
     color: 'transparent',
+    height: 20,
+    marginLeft: 16,
   },
   ListItem: {
     flexDirection: 'row',
@@ -69,11 +71,8 @@ export const styles = StyleSheet.create({
     backgroundColor: 'white',
     flexWrap: 'nowrap',
     flexDirection: 'row',
-    flex: 1,
     height: 48,
-    justifyContent: 'space-around',
     paddingLeft: 16,
-    width: '100%',
   },
   ListItems: {
     flex: 1,
@@ -81,13 +80,9 @@ export const styles = StyleSheet.create({
     minHeight: 288,
   },
   WrapperMessage: {
-    position: 'absolute',
-    top: '40%',
-    right: 0,
-    bottom: 'auto',
-    left: 0,
-    width: 'auto',
-    height: 'auto',
+    flexGrow: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
     textAlign: 'center',
   },
   PageListsShow: {

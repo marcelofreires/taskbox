@@ -4,17 +4,19 @@ import { AntDesign } from '@expo/vector-icons';
 
 import { styles } from '../constants/globalStyles';
 
-interface TaskProps {
-  task: {
-    id: string
-    title: string
-    state: string
-  }
+export interface TaskProps {
+  id: string
+  title: string
+  state: string
+}
+
+export interface TaskStoryProps {
+  task: TaskProps
   onArchiveTask: (id: string) => void
   onPinTask: (id: string) => void
 }
 
-const Task: React.FC<TaskProps> = ({
+const Task = ({
   task: {
     id,
     title,
@@ -22,7 +24,7 @@ const Task: React.FC<TaskProps> = ({
   },
   onArchiveTask,
   onPinTask,
-}) => (
+}: TaskStoryProps) => (
   <SafeAreaView style={styles.ListItem}>
     <TouchableOpacity onPress={() => onArchiveTask(id)}>
       {state !== 'TASK_ARCHIVED' ? (
