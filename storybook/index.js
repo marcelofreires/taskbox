@@ -5,7 +5,7 @@ import './rn-addons';
 // import stories
 configure(() => {
   require('../components/Task.stories.js');
-  require('../components/TaskList.stories.js');
+  require('../components/PureTaskList.stories.js');
 }, module);
 
 const StorybookUIRoot = getStorybookUI({

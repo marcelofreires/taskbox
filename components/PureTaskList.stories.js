@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react-native';
 
 import { styles } from '../constants/globalStyles';
 import { task, actions } from './Task.stories';
-import TaskList from './TaskList';
+import PureTaskList from './PureTaskList';
 
 export const defaultTasks = [
   { ...task, id: '1', title: 'Task 1' },
@@ -20,9 +20,9 @@ export const withPinnedTasks = [
   { id: '6', title: 'Task 6 (pinned)', state: 'TASK_PINNED' },
 ];
 
-storiesOf('TaskList', module)
+storiesOf('PureTaskList', module)
   .addDecorator(story => <View style={styles.TaskBox}>{story()}</View>)
-  .add('default', () => <TaskList tasks={defaultTasks} {...actions} />)
-  .add('withPinnedTasks', () => <TaskList tasks={withPinnedTasks} {...actions} />)
-  .add('loading', () => <TaskList loading tasks={[]} {...actions} />)
-  .add('empty', () => <TaskList tasks={[]} {...actions} />);
+  .add('default', () => <PureTaskList tasks={defaultTasks} {...actions} />)
+  .add('withPinnedTasks', () => <PureTaskList tasks={withPinnedTasks} {...actions} />)
+  .add('loading', () => <PureTaskList loading tasks={[]} {...actions} />)
+  .add('empty', () => <PureTaskList tasks={[]} {...actions} />);

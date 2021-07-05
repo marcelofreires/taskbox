@@ -2,7 +2,7 @@ import * as React from 'react';
 import { create } from 'react-test-renderer';
 
 import TaskList from '../TaskList';
-import { withPinnedTasks } from '../TaskList.stories';
+import { withPinnedTasks } from '../PureTaskList.stories';
 import Task from '../Task';
 
 describe('TaskList', () => {

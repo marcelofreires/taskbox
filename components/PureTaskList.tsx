@@ -6,19 +6,19 @@ import Task, { TaskProps } from './Task';
 import LoadingRow from './LoadingRow';
 import { styles } from '../constants/globalStyles';
 
-interface TaskListProps {
+export interface PureTaskListProps {
   loading?: boolean
   tasks: TaskProps[]
   onPinTask: () => void
   onArchiveTask: () => void
 }
 
-const TaskList = ({
+const PureTaskList = ({
   loading,
   tasks,
   onPinTask,
   onArchiveTask,
-}: TaskListProps) => {
+}: PureTaskListProps) => {
   const events = {
     onPinTask,
     onArchiveTask,
@@ -65,4 +65,4 @@ const TaskList = ({
   );
 }
 
-export default TaskList;
+export default PureTaskList;
